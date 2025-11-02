@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plataforma fecha_publicacion="2025-10-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio_2.xsd">
+    <cursos>
+        <curso id="C001" codigo="JAVA-101">
+            <titulo>Desarrollo de Aplicaciones Web</titulo>
+            <nivel>FP Superior</nivel>
+            <modalidad>Online</modalidad>
+            <horas>4000</horas>
+            <modulos>
+                <modulo clave="M1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horas>1000</horas>
+                </modulo>
+                <modulo clave="M2">
+                    <nombre>Programacion</nombre>
+                    <horas>1500</horas>
+                </modulo>
+            </modulos>
+        </curso>
+    </cursos>
+
+    <alumnos>
+        <alumno id="A01" nif="12345678Z">
+            <nombre>David Antonio van Overbeek Crusells</nombre>
+            <email>david@example.com</email>
+            <telefono>666123456</telefono>
+        </alumno>
+    </alumnos>
+
+    <matriculas>
+        <matricula id="M001" alumnoRef="A01" cursoRef="C001">
+            <fecha_alta>2025-09-20</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+    </matriculas>
+
+    <evaluaciones>
+        <evaluacion id="E001" matriculaRef="M001">
+            <instrumento>Examen final</instrumento>
+            <convocatoria>ordinaria</convocatoria>
+            <nota>8.5</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>
