@@ -62,3 +62,5 @@
                 <!ELEMENT instrumento (#PCDATA)>
                 <!ELEMENT convocatoria (#PCDATA)>
                 <!ELEMENT nota (#PCDATA)>
+
+        <!-- https://github.com/davidvanoverbeek/Proyecto-XML-XSD-DTD -->

@@ -57,3 +57,5 @@
                 <!ELEMENT fecha_inicio (#PCDATA)>
                 <!ELEMENT fecha_fin (#PCDATA)>
                 <!ELEMENT estado (#PCDATA)>
+
+    <!-- https://github.com/davidvanoverbeek/Proyecto-XML-XSD-DTD -->

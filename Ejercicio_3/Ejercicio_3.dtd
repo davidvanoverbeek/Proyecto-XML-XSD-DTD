@@ -6,3 +6,5 @@
         <!ELEMENT year (#PCDATA)>
         <!ELEMENT publisher (#PCDATA)>
         <!ELEMENT pages (#PCDATA)>
+
+    <!-- https://github.com/davidvanoverbeek/Proyecto-XML-XSD-DTD -->
