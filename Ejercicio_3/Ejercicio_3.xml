@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio_3.xsd">
+    <book>
+        <title>Manual de uso de HTML</title>
+        <author>Raul Albiol</author>
+        <year>2021</year>
+        <publisher>Vicnesvives</publisher>
+        <pages>250</pages>
+    </book>
+</library>
